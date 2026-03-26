@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enterprise-rag-connector-kit"
+version = "0.1.0"
+description = "Modular Python framework for enterprise content ingestion, retrieval, and grounded chat workflows"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Steven Lopez" }
+]
+dependencies = [
+  "requests>=2.32.0,<3.0.0",
+  "pytest>=8.0.0,<9.0.0",
+  "python-dotenv>=1.0.1,<2.0.0",
+  "mcp>=1.7.1,<2.0.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
