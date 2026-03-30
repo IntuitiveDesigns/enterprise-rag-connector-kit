@@ -1,3 +1,7 @@
+[![Architected by Steven Lopez](https://img.shields.io/badge/Architected%20by-Steven%20Lopez-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/steve-lopez-b9941/)
+
+---
+
 # Enterprise RAG Connector Kit
 
 A modular Python framework for ingesting enterprise content, validating and indexing documents, retrieving grounded context, and exposing a local MCP-compatible chatbot workflow.
