@@ -1,4 +1,3 @@
-# Enterprise_RAG_Connector_Kit
 [![Architecture by Steven Lopez](https://img.shields.io/badge/Architecture%20by-Steven%20Lopez-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/steve-lopez-b9941/)
 [![GitHub stars](https://img.shields.io/github/stars/IntuitiveDesigns/enterprise-rag-connector-kit?style=for-the-badge)](https://github.com/IntuitiveDesigns/enterprise-rag-connector-kit/stargazers)
 [![License](https://img.shields.io/github/license/IntuitiveDesigns/enterprise-rag-connector-kit?style=for-the-badge)](LICENSE)
