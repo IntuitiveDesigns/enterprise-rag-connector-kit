@@ -1,4 +1,8 @@
+# Project Name
+
 [![Architected by Steven Lopez](https://img.shields.io/badge/Architected%20by-Steven%20Lopez-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/steve-lopez-b9941/)
+[![GitHub stars](https://img.shields.io/github/stars/OWNER/REPO?style=for-the-badge)](https://github.com/OWNER/REPO/stargazers)
+[![License](https://img.shields.io/github/license/OWNER/REPO?style=for-the-badge)](LICENSE)
 
 ---
 
