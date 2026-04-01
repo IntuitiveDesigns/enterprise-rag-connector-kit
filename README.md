@@ -48,3 +48,34 @@ Search API → Retrieve Documents
 Chat API → Generate Answer
    ↓
 Return Answer + Sources
+
+---
+
+## Quick Start
+
+```bash
+# Activate the cirtual environment
+.\.venv\Scripts\Activate.ps1
+
+# Sanity-check the codebase
+pytest
+ruff check .
+
+# Indexing flow
+python .\main.py
+
+# Search API verification script
+python .\verify_indexing.py
+
+# Chatbot from CLI
+python .\ask_chatbot.py "Which documents discuss observability?" 5
+
+# MCP server
+python -m glean_indexing_connector.mcp.server
+
+# MCP Tool (Web Interface)
+mcp dev src\glean_indexing_connector\mcp\server.py
+or
+python -m mcp dev src\glean_indexing_connector\mcp\server.py
+
+```
