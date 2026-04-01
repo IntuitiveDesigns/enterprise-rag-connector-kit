@@ -48,6 +48,7 @@ Search API → Retrieve Documents
 Chat API → Generate Answer
    ↓
 Return Answer + Sources
+```
 
 ---
 
